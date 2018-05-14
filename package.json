@@ -1,6 +1,6 @@
 {
   "name": "@mozilla-protocol/assets",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Variables for Mozilla's icons, logos, and images",
   "main": "icons/protocol-icons.scss",
   "repository": {
@@ -10,8 +10,7 @@
   "keywords": [
     "mozilla",
     "assets",
-    "css",
-    "json"
+    "svg",
   ],
   "author": "Mozilla",
   "license": "MPL-2.0",
