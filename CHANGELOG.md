@@ -1,3 +1,6 @@
+# 0.0.3
+* **icons** Remove png support for icons
+
 # 0.0.2
 
 ## Features
