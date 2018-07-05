@@ -1,3 +1,9 @@
+# 0.0.4
+
+## Features
+
+* **logos** Added firefox logos (release, beta, dev edition, nightly, focus) (#2)
+
 # 0.0.3
 * **icons** Remove png support for icons
 
