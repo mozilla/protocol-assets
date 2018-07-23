@@ -4,6 +4,7 @@
 
 * **logos** Added Pocket logo
 * **icons** Added menu panel arrow icon
+* **backgrounds** Added hero curve SVG mask
 
 # 0.0.4
 
