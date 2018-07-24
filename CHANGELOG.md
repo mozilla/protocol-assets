@@ -1,3 +1,10 @@
+# 0.0.5
+
+## Features
+
+* **logos** Added Pocket logo
+* **icons** Added menu panel arrow icon
+
 # 0.0.4
 
 ## Features
