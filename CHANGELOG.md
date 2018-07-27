@@ -1,3 +1,11 @@
+# 1.0.0
+
+## Features
+
+* **icons** Added new menu, close and expand icons (black & white variants).
+* **icons** Removed old close icon.
+* **icons** Removed old kebab menu icon.
+
 # 0.0.5
 
 ## Features
