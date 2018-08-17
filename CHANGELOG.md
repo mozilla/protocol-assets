@@ -1,3 +1,9 @@
+# 1.0.1
+
+#Features
+
+* **icons** Added header navigation icons
+
 # 1.0.0
 
 ## Features
