@@ -1,3 +1,7 @@
+# 2.0.0
+
+* **icons** Replaced existing icons with new icon style
+
 # 1.0.1
 
 #Features
