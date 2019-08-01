@@ -5,7 +5,7 @@
   "main": "icons/protocol-icons.scss",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mozilla/protocol-design-tokens.git"
+    "url": "git+https://github.com/mozilla/protocol-assets.git"
   },
   "keywords": [
     "mozilla",
