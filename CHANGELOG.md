@@ -1,4 +1,4 @@
-# 2.0.1
+# 2.1.0
 
 * **logos** Update Firefox Beta, Developer and Nightly logos (#30)
 
