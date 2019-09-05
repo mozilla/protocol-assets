@@ -1,3 +1,7 @@
+# 2.1.0
+
+* **logos** Update Firefox Beta, Developer and Nightly logos (#30)
+
 # 2.0.0
 
 * **icons** Replaced existing icons with new icon style
