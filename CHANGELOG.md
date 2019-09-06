@@ -1,3 +1,8 @@
+# 2.1.1.
+
+* **icons** Add social media icons back
+* **icons** Add white versions of some UI assets
+
 # 2.1.0
 
 * **logos** Update Firefox Beta, Developer and Nightly logos (#30)
