@@ -1,3 +1,7 @@
+# 3.0.0
+
+* **logos** Move to standard sized logos for Firefox browsers and products
+
 # 2.1.1.
 
 * **icons** Add social media icons back
