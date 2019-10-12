@@ -1,3 +1,7 @@
+# HEAD
+
+* **logos** Add master brand open graph image (#39)
+
 # 3.0.0
 
 * **logos** Move to standard sized logos for Firefox browsers and products
