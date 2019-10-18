@@ -1,5 +1,6 @@
 # HEAD
 
+* **other** Add zap SVGs (#44)
 * **logos** Add Monitor brand open graph image (#42)
 * **logos** Add master brand open graph image (#39)
 
