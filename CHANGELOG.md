@@ -1,5 +1,6 @@
 # HEAD
 
+* **logos** Add Monitor brand open graph image (#42)
 * **logos** Add master brand open graph image (#39)
 
 # 3.0.0
