@@ -1,4 +1,4 @@
-# HEAD
+# 3.0.1
 
 * **other** Add zap SVGs (#44)
 * **logos** Add Monitor brand open graph image (#42)
