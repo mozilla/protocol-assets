@@ -1,3 +1,7 @@
+# 3.0.2
+
+* **icons** Add a set of brand icons/spot illustration in a variety of colors (#47)
+
 # 3.0.1
 
 * **other** Add zap SVGs (#44)
