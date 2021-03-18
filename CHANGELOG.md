@@ -1,3 +1,27 @@
+# 4.0.0
+
+* **logos** Add VPN assets (#49)
+* **logos** Add Focus assets (Fix #51)
+* **logos** (breaking) Add full size options to Mozilla assets (Fix #54)
+* **logos** (breaking) Update Pocket logo sizes (Fix #55)
+
+## migration tips
+
+* Updated Mozilla file names
+    * black.svg -> logo-word-hor.svg (the dimensions has increased, check you have coded a width where used)
+    * white.svg -> logo-word-hor-white.svg (the dimensions has increased, check you have coded a width where used)
+    * black.png -> logo-word-hor-xs.png
+    * black@2x.png -> logo-word-hor-sm.png
+    * black@3x.png -> logo-word-hor-md.png
+    * white.png -> logo-word-hor-white-xs.png
+    * white@2x.png -> logo-word-hor-white-sm.png
+    * white@3x.png -> logo-word-hor-white-md.png
+* Updated Pocket file names
+    * logo-word-horz-white.svg -> logo-word-hor-white.svg
+    * logo-word-horz.svg -> logo-word-hor.svg
+    * pocket.svg -> logo.svg
+    * the dimensions have increased for all SVG files, check you have coded a width where used
+
 # 3.0.2
 
 * **icons** Add a set of brand icons/spot illustration in a variety of colors (#47)
