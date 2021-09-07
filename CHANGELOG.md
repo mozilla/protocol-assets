@@ -1,3 +1,7 @@
+# 4.0.1
+
+* **logos** Remove transparent whitespace to right of Pocket wordmark PNGs (Fix #59)
+
 # 4.0.0
 
 * **logos** Add VPN assets (#49)
