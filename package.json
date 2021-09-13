@@ -1,7 +1,7 @@
 {
   "name": "@mozilla-protocol/assets",
-  "version": "4.0.0",
-  "description": "Variables for Mozilla's icons, logos, and images",
+  "version": "4.1.0",
+  "description": "Files for Mozilla's logos, icons, and other images",
   "main": "icons/protocol-icons.scss",
   "repository": {
     "type": "git",

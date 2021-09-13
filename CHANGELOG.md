@@ -1,6 +1,10 @@
-# 4.0.1
+# 4.1.0
 
 * **logos** Remove transparent whitespace to right of Pocket wordmark PNGs (Fix #59)
+
+## migration tips
+
+* The Pocket wordmark PNGs have changed dimensions. If you've specified a size where this wordmark appears, update to the new width.
 
 # 4.0.0
 
