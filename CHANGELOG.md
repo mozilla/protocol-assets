@@ -1,3 +1,7 @@
+# HEAD
+
+* **logos** Re-rendered Firefox Focus logo and wordmark SVGs
+
 # 4.1.0
 
 * **logos** Remove transparent whitespace to right of Pocket wordmark PNGs (Fix #59)
