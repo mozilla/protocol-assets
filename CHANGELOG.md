@@ -1,5 +1,6 @@
 # HEAD
 
+* **logos** Re-rendered Mozilla VPN logo and wordmark SVGs
 * **logos** Re-rendered Firefox Focus logo and wordmark SVGs
 
 # 4.1.0
