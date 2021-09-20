@@ -1,5 +1,6 @@
 # HEAD
 
+* **logos** Renamed and added Pocket wordmark SVGs to fully support dark theme and monochromatic brand guidelines
 * **logos** Re-rendered Mozilla VPN logo and wordmark SVGs
 * **logos** Re-rendered Firefox Focus logo and wordmark SVGs
 
