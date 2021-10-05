@@ -1,3 +1,7 @@
+# HEAD
+
+* **icons** Re-rendered and optimized social icons
+
 # 4.2.0
 
 * **logos** Renamed and added Pocket wordmark SVGs to fully support dark theme and monochromatic brand guidelines (Fix #61)
