@@ -15,27 +15,12 @@ Icons
 
 For the most part icons are black SVGs. There are a few white variations for historical reasons. These have the sufix `-white` in the file name.
 
+There is also a set of colorful "brand" icons in SVG format, in four different color schemes drawn from the Firefox brand palette.
+
 Logos
 =====
 
-We are in the process of standardizing what formats and variations are available. This is the current plan:
-
-### Sizes
-
-Favicons are not included at this time, we encourage you to generate them yourself from the files included here.
-
-PNG logo and logo + wordmark files are available in:
-
-- `xs` (the logo will be 48px in files this size, the actual image size will vary based on if the wordmark is present, horizontal, vertical, and/or stacked)
-- `sm` (~64px)
-- `md` (~96px)
-- `lg` (~128px)
-- `xl` (~160px)
-- `2xl` (~196px)
-
-SVG logo and logo + wordmark files are included. Sizing varies, you should declare the height and width you want when you use them.
-
-Currently only "flat" versions of the logos are available and only as SVGs.
+SVG logo and logo + wordmark files are included for a number of Mozilla and Firefox products. Sizing varies; you should declare the height and width you want when you use them.
 
 ### Variations
 
@@ -44,10 +29,12 @@ Currently only "flat" versions of the logos are available and only as SVGs.
 * `ver` = the logo is above the wordmark
 * `hor` = the logo is to the left of the wordmark
 * `stack` = each word in the wordmark is on a new line
-* `flat` = the image does not have any texture or color
+* `flat` = the image is a single, solid color with no shading or gradients
 * `white` = the image is intended for use on a dark background
   * if the image does not have "white" in the file name it's meant for use on a light background
 * `og` = this is an open graph image for the product
+
+Favicons are not included at this time; we encourage you to generate them yourself from the files included here.
 
 Code of Conduct
 ---------------
