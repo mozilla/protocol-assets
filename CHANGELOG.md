@@ -1,5 +1,7 @@
 # HEAD
 
+* **logos** Remove PNG assets for logos and wordmarks (#65)
+* **logos** Remove Firefox Send assets
 * **icons** Re-rendered and optimized social icons
 
 # 4.2.0
