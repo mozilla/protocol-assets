@@ -1,5 +1,6 @@
 # HEAD
 
+* **logos** Update Firefox Focus logo [#73]
 * **logos** Add wordmark assets for Firefox Klar (#60)
 * **logos** Remove PNG assets for logos and wordmarks (#65)
 * **logos** Remove Firefox Send assets
