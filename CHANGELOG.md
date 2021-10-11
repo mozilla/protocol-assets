@@ -1,10 +1,16 @@
-# HEAD
+# 5.0.0
 
 * **logos** Update Firefox Focus logo [#73]
 * **logos** Add wordmark assets for Firefox Klar (#60)
-* **logos** Remove PNG assets for logos and wordmarks (#65)
-* **logos** Remove Firefox Send assets
+* **logos** (breaking) Remove PNG assets for logos and wordmarks (#65)
+* **logos** (breaking) Remove Firefox Send assets
 * **icons** Re-rendered and optimized social icons
+
+## migration tips
+
+* The Firefox Send logo and wordmark assets have been removed because that product has been discontinued. Update any references to those assets.
+* All PNG logo and wordmark assets have been removed in favor of SVG. Update any references to the PNG assets. If you require a PNG logo for some reason (e.g. for older browsers that don't support SVG) you'll need to find an alternative source.
+
 
 # 4.2.0
 

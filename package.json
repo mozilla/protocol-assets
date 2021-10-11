@@ -1,6 +1,6 @@
 {
   "name": "@mozilla-protocol/assets",
-  "version": "4.2.0",
+  "version": "5.0.0",
   "description": "Files for Mozilla's logos, icons, and other images",
   "main": "icons/protocol-icons.scss",
   "repository": {
@@ -9,6 +9,7 @@
   },
   "keywords": [
     "mozilla",
+    "firefox",
     "assets",
     "svg"
   ],
