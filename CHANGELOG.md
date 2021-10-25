@@ -1,3 +1,7 @@
+# HEAD
+
+**logos** Add Firefox Relay logos (#79)
+
 # 5.0.0
 
 * **logos** Update Firefox Focus logo [#73]
