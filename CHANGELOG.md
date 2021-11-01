@@ -1,4 +1,4 @@
-# HEAD
+# 5.1.0
 
 **logos** Add Firefox Relay logos (#79)
 
