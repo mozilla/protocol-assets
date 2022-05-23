@@ -1,3 +1,7 @@
+# HEAD
+
+**icons** Add social icons for LinkedIn, TikTok, Spotify (#84)
+
 # 5.1.0
 
 **logos** Add Firefox Relay logos (#79)
