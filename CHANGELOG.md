@@ -1,5 +1,6 @@
-# HEAD
+# 5.2.0
 
+**icons** Add social icon for Mastodon
 **icons** Add social icons for LinkedIn, TikTok, Spotify (#84)
 
 # 5.1.0
