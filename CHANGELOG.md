@@ -1,3 +1,7 @@
+# HEAD
+
+**icons** Add social icon for X (formerly Twitter) (#90)
+
 # 5.2.0
 
 **icons** Add social icon for Mastodon
