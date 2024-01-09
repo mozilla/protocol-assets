@@ -1,4 +1,4 @@
-# HEAD
+# 5.3.0
 
 **icons** Add social icon for X (formerly Twitter) (#90)
 
