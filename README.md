@@ -1,6 +1,6 @@
 # Protocol Assets
 
-[![npm version](https://img.shields.io/npm/v/feather-icons.svg?style=flat-square)](https://www.npmjs.com/package/@mozilla-protocol/assets)
+[![Current npm package version.](https://img.shields.io/npm/v/@mozilla-protocol/assets)](https://www.npmjs.com/package/@mozilla-protocol/assets)
 
 This repository contains a set of reusable assets for Mozilla's websites. These assets are available as both svg and png files. Assets include logos and icons.
 
