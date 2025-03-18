@@ -1,3 +1,14 @@
+# 5.4.0
+
+* **logos** Update Firefox Monitor -> Mozilla Monitor (#95)
+* **logos** Update Relay Logo to purple (#87)
+* **icons** Fix highlight icon crop #96 
+
+## migration tips
+
+* The Monitor logos remain in the Firefox folder, no action is necessary for this update
+* If you have been over-riding the Relay logos locally to get the purple one on light backgrounds, you can remove that code
+
 # 5.3.0
 
 **icons** Add social icon for X (formerly Twitter) (#90)
