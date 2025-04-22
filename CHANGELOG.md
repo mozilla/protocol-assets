@@ -1,3 +1,7 @@
+# HEAD
+
+* **logos** Update Mozilla logo and icon files. Adds the logo lockup. (#100)
+
 # 5.4.0
 
 * **logos** Update Firefox Monitor -> Mozilla Monitor (#95)
