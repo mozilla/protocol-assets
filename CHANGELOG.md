@@ -1,6 +1,10 @@
-# HEAD
+# 6.0.0
 
 * **logos** Update Mozilla logo and icon files. Adds the logo lockup. (#100)
+
+## migration tips
+
+* The new Mozilla logo files are the same height but slightly narrower. If you are explicitly declaring a width for them, you should update it from 280 to 249.
 
 # 5.4.0
 
