@@ -1,10 +1,20 @@
+# 6.0.1
+
+* **logos** Remove padding from updated logo files
+
+## migration tips
+
+* The new Mozilla wordmark files are the same height but longer. If you are explicitly declaring a width for them, you should update it (Tip: check your CSS background images too.)
+* The logo files are no longer square, so check their dimensions too.
+
+
 # 6.0.0
 
 * **logos** Update Mozilla logo and icon files. Adds the logo lockup. (#100)
 
 ## migration tips
 
-* The new Mozilla logo files are the same height but slightly narrower. If you are explicitly declaring a width for them, you should update it from 280 to 249.
+* The new Mozilla wordmark files are the same height but longer. If you are explicitly declaring a width for them, you should update it (Tip: check your CSS background images too.)
 
 # 5.4.0
 
