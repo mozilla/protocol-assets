@@ -1,3 +1,7 @@
+# 6.1.1
+
+* **icons** Add bluesky social icons
+
 # 6.0.1
 
 * **logos** Remove padding from updated logo files
