@@ -1,3 +1,11 @@
+# 7.0.0
+
+* **icons** Adds and updates icons according to new Refresh set
+
+## migration tips
+
+Updated icons are still square but do not have padding around the icon. This is particularly noticeable with menu and arrows. If you were relying on the icon for spacing, you may need to update to re-add that spacing through CSS.
+
 # 6.1.1
 
 * **icons** Add bluesky social icons

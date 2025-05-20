@@ -1,7 +1,1 @@
-<svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g transform="translate(2.000000, 2.000000)" stroke="#000000" stroke-width="2">
-            <polygon points="10 0 13.09 6.26 20 7.27 15 12.14 16.18 19.02 10 15.77 3.82 19.02 5 12.14 0 7.27 6.91 6.26"></polygon>
-        </g>
-    </g>
-</svg>
+<svg fill="none" height="16" width="16" xmlns="http://www.w3.org/2000/svg"><clipPath id="a"><path d="M0 0h16v16H0z"/></clipPath><g clip-path="url(#a)"><path d="m2 16 6-4 6 4V0H2zM3.5 1.5h9v11.7l-3.67-2.45L8 10.2l-.83.55L3.5 13.2z" fill="currentColor"/></g></svg>
