@@ -1,6 +1,6 @@
 # 7.0.0
 
-* **icons** Adds and updates icons according to new Refresh set
+* **icons** Adds and updates icons according to new Refresh set. Some icons include a `-narrow` variant that removes horizontal padding for better inline alignment.
 
 ## migration tips
 
