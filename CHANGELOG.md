@@ -1,10 +1,12 @@
 # 7.0.0
 
-* **icons** Adds and updates icons according to new Refresh set. Some icons include a `-narrow` variant that removes horizontal padding for better inline alignment.
+* **icons** (breaking) Adds and updates icons according to new Refresh set. Some icons include a `-narrow` variant that removes horizontal padding for better inline alignment.
 
 ## migration tips
 
 Updated icons are still square but do not have padding around the icon. This is particularly noticeable with menu and arrows. If you were relying on the icon for spacing, you may need to update to re-add that spacing through CSS.
+
+Icons formerly known as "arrow" are now known as "caret" and there are new icon designs for "arrow" name. You will need to update naming to keep the "caret" design.
 
 # 6.1.1
 
