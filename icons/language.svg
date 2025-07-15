@@ -1,12 +1,1 @@
-<svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g transform="translate(3.000000, 4.000000)" stroke="#000000" stroke-width="2">
-            <polyline stroke-linecap="round" stroke-linejoin="round" points="10 16 14 6 18 16"></polyline>
-            <path d="M11,13 L17,13"></path>
-            <path d="M0,2 L13,2" stroke-linecap="round"></path>
-            <path d="M6,0 L7,2" stroke-linecap="round"></path>
-            <path d="M3,6 C4,8.64823428 5.66666667,10.314901 8,11" stroke-linecap="round"></path>
-            <path d="M1,14.0276486 C5.41733333,11.3425495 8.41733333,7.33333333 10,2" stroke-linecap="round"></path>
-        </g>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><clipPath id="a"><path d="M0 0h16v16H0z"/></clipPath><g fill="currentColor" clip-path="url(#a)"><path d="M3.82 7.59c-.17.12-.34.25-.53.36l-1.55.97.79 1.27 1.55-.97c.32-.2.62-.41.91-.63.29.22.59.43.91.63l1.55.97.79-1.27-1.55-.97c-.19-.12-.35-.24-.53-.36C7.53 6.25 8.35 4.7 8.54 3.07h1.44v-1.5H5.73V0h-1.5v1.57H0v1.5h1.44c.19 1.64 1.01 3.18 2.38 4.52M5 6.65c-1.15-1.08-1.85-2.3-2.05-3.58h4.11c-.2 1.28-.9 2.5-2.05 3.58zM8 16h1.72l.59-1.97h3.31l.59 1.97H16l-2.92-9H10.9zm4.07-7.11 1.12 3.73h-2.47l1.11-3.73z"/></g></svg>
