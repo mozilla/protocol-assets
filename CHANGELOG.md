@@ -1,3 +1,13 @@
+# 7.0.1
+
+* **icons** Adds and updates some icons missed in 7.0.0
+
+## migration tips
+
+New and updated icons have intrinsic width of 16x16 instead of 24x24. If you were relying on SVG width and height attributes for sizing, you may need to update by CSS sizing.
+
+Updated icons are still square but do not have padding around the icon. This is particularly noticeable with menu and arrows. If you were relying on the icon for spacing, you may need to update to re-add that spacing through CSS.
+
 # 7.0.0
 
 * **icons** (breaking) Adds and updates icons according to new Refresh set. These icons use 16x16 width and height attributes. Some icons include a `-narrow` variant that removes horizontal padding for better inline alignment.
