@@ -1,6 +1,6 @@
 {
   "name": "@mozilla-protocol/assets",
-  "version": "7.0.0",
+  "version": "7.0.1",
   "description": "Files for Mozilla's logos, icons, and other images",
   "main": "icons/protocol-icons.scss",
   "repository": {
