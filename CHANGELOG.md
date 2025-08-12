@@ -1,3 +1,7 @@
+# 7.0.2
+
+* **icons** Fixes missing viewBox attribute on new icons and updates "thumbs-up" default to include horizontal padding
+
 # 7.0.1
 
 * **icons** Adds and updates some icons missed in 7.0.0
