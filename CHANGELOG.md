@@ -1,3 +1,5 @@
+* **logos:** Removes inline style attribute for simple fill to avoid content security issues if used inline (#115)
+
 # 7.0.2
 
 * **icons** Fixes missing viewBox attribute on new icons and updates "thumbs-up" default to include horizontal padding
