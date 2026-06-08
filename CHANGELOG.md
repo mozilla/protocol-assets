@@ -1,18 +1,19 @@
+* **logos:** Removes inline style attribute for simple fill to avoid content security issues if used inline (#115)
 * **logos:** Fixes browser logo alignment between channels and provides current versions of brand assets (#122)
 
 ## Migration tips
 
-Intrinsic sizes were inconsistent between channels before. Now all are the same 512px dimension, replacing the older 80px and 300px assets. If you were relying on SVG width and height attributes for sizing, you may need to update by CSS sizing.
+Intrinsic sizes were inconsistent between channels before. Now all are the same 512px dimension, replacing the older 80px and 300px assets. If you were relying on SVG width and height defaults, you may need to verify your sizing or style with CSS.
 
 # 7.0.2
 
-* **icons** Fixes missing viewBox attribute on new icons and updates "thumbs-up" default to include horizontal padding
+* **icons:** Fixes missing viewBox attribute on new icons and updates "thumbs-up" default to include horizontal padding
 
 # 7.0.1
 
-* **icons** Adds and updates some icons missed in 7.0.0
+* **icons:** Adds and updates some icons missed in 7.0.0
 
-## migration tips
+## Migration tips
 
 New and updated icons have intrinsic width of 16 instead of 24x24. If you were relying on SVG width and height attributes for sizing, you may need to update by CSS sizing.
 
@@ -20,9 +21,9 @@ Updated icons are still square but do not have padding around the icon. This is 
 
 # 7.0.0
 
-* **icons** (breaking) Adds and updates icons according to new Refresh set. These icons use 16x16 width and height attributes. Some icons include a `-narrow` variant that removes horizontal padding for better inline alignment.
+* **icons:** (breaking) Adds and updates icons according to new Refresh set. These icons use 16x16 width and height attributes. Some icons include a `-narrow` variant that removes horizontal padding for better inline alignment.
 
-## migration tips
+## Migration tips
 
 New and updated icons have intrinsic width of 16x16 instead of 24x24. If you were relying on SVG width and height attributes for sizing, you may need to update by CSS sizing.
 
@@ -32,86 +33,84 @@ Icons formerly known as "arrow" are now known as "caret" and there are new icon 
 
 # 6.1.1
 
-* **icons** Add bluesky social icons
+* **icons:** Add bluesky social icons
 
 # 6.0.1
 
-* **logos** Remove padding from updated logo files
+* **logos:** Remove padding from updated logo files
 
-## migration tips
+## Migration tips
 
 * The new Mozilla wordmark files are the same height but longer. If you are explicitly declaring a width for them, you should update it (Tip: check your CSS background images too.)
 * The logo files are no longer square, so check their dimensions too.
 
-
 # 6.0.0
 
-* **logos** Update Mozilla logo and icon files. Adds the logo lockup. (#100)
+* **logos:** Update Mozilla logo and icon files. Adds the logo lockup (#100)
 
-## migration tips
+## Migration tips
 
 * The new Mozilla wordmark files are the same height but longer. If you are explicitly declaring a width for them, you should update it (Tip: check your CSS background images too.)
 
 # 5.4.0
 
-* **logos** Update Firefox Monitor -> Mozilla Monitor (#95)
-* **logos** Update Relay Logo to purple (#87)
-* **icons** Fix highlight icon crop #96 
+* **logos:** Update Firefox Monitor -> Mozilla Monitor (#95)
+* **logos:** Update Relay Logo to purple (#87)
+* **icons:** Fix highlight icon crop (#96)
 
-## migration tips
+## Migration tips
 
 * The Monitor logos remain in the Firefox folder, no action is necessary for this update
 * If you have been over-riding the Relay logos locally to get the purple one on light backgrounds, you can remove that code
 
 # 5.3.0
 
-**icons** Add social icon for X (formerly Twitter) (#90)
+* **icons:** Add social icon for X (formerly Twitter) (#90)
 
 # 5.2.0
 
-**icons** Add social icon for Mastodon
-**icons** Add social icons for LinkedIn, TikTok, Spotify (#84)
+* **icons:** Add social icon for Mastodon
+* **icons:** Add social icons for LinkedIn, TikTok, Spotify (#84)
 
 # 5.1.0
 
-**logos** Add Firefox Relay logos (#79)
+* **logos:** Add Firefox Relay logos (#79)
 
 # 5.0.0
 
-* **logos** Update Firefox Focus logo [#73]
-* **logos** Add wordmark assets for Firefox Klar (#60)
-* **logos** (breaking) Remove PNG assets for logos and wordmarks (#65)
-* **logos** (breaking) Remove Firefox Send assets
-* **icons** Re-rendered and optimized social icons
+* **logos:** (breaking) Remove PNG assets for logos and wordmarks (#65)
+* **logos:** (breaking) Remove Firefox Send assets
+* **logos:** Update Firefox Focus logo (#73)
+* **logos:** Add wordmark assets for Firefox Klar (#60)
+* **icons:** Re-rendered and optimized social icons
 
-## migration tips
+## Migration tips
 
-* The Firefox Send logo and wordmark assets have been removed because that product has been discontinued. Update any references to those assets.
-* All PNG logo and wordmark assets have been removed in favor of SVG. Update any references to the PNG assets. If you require a PNG logo for some reason (e.g. for older browsers that don't support SVG) you'll need to find an alternative source.
-
+* The Firefox Send logo and wordmark assets have been removed because that product has been discontinued. Remove any references to those assets, or host your own if you need to display them for historical reasons.
+* All PNG logo and wordmark assets have been removed in favor of SVG. Update any references to the PNG assets. If you require a PNG logo for some reason (e.g. for older browsers that don't support SVG) you'll need to include your own copy.
 
 # 4.2.0
 
-* **logos** Renamed and added Pocket wordmark SVGs to fully support dark theme and monochromatic brand guidelines (Fix #61)
-* **logos** Re-rendered Mozilla VPN logo and wordmark SVGs
-* **logos** Re-rendered Firefox Focus logo and wordmark SVGs
+* **logos:** Renamed and added Pocket wordmark SVGs to fully support dark theme and monochromatic brand guidelines (#61)
+* **logos:** Re-rendered Mozilla VPN logo and wordmark SVGs
+* **logos:** Re-rendered Firefox Focus logo and wordmark SVGs
 
 # 4.1.0
 
-* **logos** Remove transparent whitespace to right of Pocket wordmark PNGs (Fix #59)
+* **logos:** Remove transparent whitespace to right of Pocket wordmark PNGs (#59)
 
-## migration tips
+## Migration tips
 
 * The Pocket wordmark PNGs have changed dimensions. If you've specified a size where this wordmark appears, update to the new width.
 
 # 4.0.0
 
-* **logos** Add VPN assets (#49)
-* **logos** Add Focus assets (Fix #51)
-* **logos** (breaking) Add full size options to Mozilla assets (Fix #54)
-* **logos** (breaking) Update Pocket logo sizes (Fix #55)
+* **logos:** Add VPN assets (#49)
+* **logos:** Add Focus assets (#51)
+* **logos:** (breaking) Add full size options to Mozilla assets (#54)
+* **logos:** (breaking) Update Pocket logo sizes (#55)
 
-## migration tips
+## Migration tips
 
 * Updated Mozilla file names
     * black.svg -> logo-word-hor.svg (the dimensions has increased, check you have coded a width where used)
@@ -130,83 +129,72 @@ Icons formerly known as "arrow" are now known as "caret" and there are new icon 
 
 # 3.0.2
 
-* **icons** Add a set of brand icons/spot illustration in a variety of colors (#47)
+* **icons:** Add a set of brand icons/spot illustration in a variety of colors (#47)
 
 # 3.0.1
 
-* **other** Add zap SVGs (#44)
-* **logos** Add Monitor brand open graph image (#42)
-* **logos** Add master brand open graph image (#39)
+* **other:** Add zap SVGs (#44)
+* **logos:** Add Monitor brand open graph image (#42)
+* **logos:** Add master brand open graph image (#39)
 
 # 3.0.0
 
-* **logos** Move to standard sized logos for Firefox browsers and products
-* **logos** Remove Focus logos
-* **logos** Remove duplicate `social/icons` folder in favour of `/icons/social`
-* **logos** Add Pocket logo+wordmarks as SVGs
-* **logos** Update `/icons/social/firefox` icons to new browser design
-* **other** Add Open Graph images for products
+* **logos:** Move to standard sized logos for Firefox browsers and products
+* **logos:** Remove Focus logos
+* **logos:** Remove duplicate `social/icons` folder in favour of `/icons/social`
+* **logos:** Add Pocket logo+wordmarks as SVGs
+* **logos:** Update `/icons/social/firefox` icons to new browser design
+* **other:** Add Open Graph images for products
 
-## migration tips
+## Migration tips
 
 * If you were using the old browser logos files you can swap them with the `lg` versions of the new ones, they are the same dimensions
 * If you need the focus logos, you will need to host them locally
 * If you were using the social icons in the root folder you can update to use the new folder location, there have not been any name changes.
 
-# 2.1.1.
+# 2.1.1
 
-* **icons** Add social media icons back
-* **icons** Add white versions of some UI assets
+* **icons:** Add social media icons back
+* **icons:** Add white versions of some UI assets
 
 # 2.1.0
 
-* **logos** Update Firefox Beta, Developer and Nightly logos (#30)
+* **logos:** Update Firefox Beta, Developer and Nightly logos (#30)
 
 # 2.0.0
 
-* **icons** Replaced existing icons with new icon style
+* **icons:** Replaced existing icons with new icon style
 
 # 1.0.1
 
-#Features
-
-* **icons** Added header navigation icons
+* **icons:** Added header navigation icons
 
 # 1.0.0
 
-## Features
-
-* **icons** Added new menu, close and expand icons (black & white variants).
-* **icons** Removed old close icon.
-* **icons** Removed old kebab menu icon.
+* **icons:** Added new menu, close and expand icons (black & white variants).
+* **icons:** Removed old close icon.
+* **icons:** Removed old kebab menu icon.
 
 # 0.0.5
 
-## Features
-
-* **logos** Added Pocket logo
-* **icons** Added menu panel arrow icon
-* **backgrounds** Added hero curve SVG mask
+* **logos:** Added Pocket logo
+* **icons:** Added menu panel arrow icon
+* **backgrounds:** Added hero curve SVG mask
 
 # 0.0.4
 
-## Features
-
-* **logos** Added firefox logos (release, beta, dev edition, nightly, focus) (#2)
+* **logos:** Added firefox logos (release, beta, dev edition, nightly, focus) (#2)
 
 # 0.0.3
-* **icons** Remove png support for icons
+
+* **icons:** Remove png support for icons
 
 # 0.0.2
 
-## Features
-
-* **logos** Added mozilla logo
-* **icons/ui** Added UI icons (audio, video, close, kebab)
-* **icons/social** Added mozilla and protocol icons
+* **logos:** Added mozilla logo
+* **icons/ui:** Added UI icons (audio, video, close, kebab)
+* **icons/social:** Added mozilla and protocol icons
 
 # 0.0.1
 
-## Features
-
-* **icons** Added support for social icons (facebook, firefox, github, instagram, pocket, twitter, and youtube)
+* **icons:** Added support for social icons (facebook, firefox, github, instagram, pocket, twitter, and youtube)
