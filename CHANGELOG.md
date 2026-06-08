@@ -1,3 +1,9 @@
+* **logos:** Fixes browser logo alignment between channels and provides current versions of brand assets (#122)
+
+## Migration tips
+
+Intrinsic sizes were inconsistent between channels before. Now all are the same 512px dimension, replacing the older 80px and 300px assets. If you were relying on SVG width and height attributes for sizing, you may need to update by CSS sizing.
+
 # 7.0.2
 
 * **icons** Fixes missing viewBox attribute on new icons and updates "thumbs-up" default to include horizontal padding
@@ -8,7 +14,7 @@
 
 ## migration tips
 
-New and updated icons have intrinsic width of 16x16 instead of 24x24. If you were relying on SVG width and height attributes for sizing, you may need to update by CSS sizing.
+New and updated icons have intrinsic width of 16 instead of 24x24. If you were relying on SVG width and height attributes for sizing, you may need to update by CSS sizing.
 
 Updated icons are still square but do not have padding around the icon. This is particularly noticeable with menu and arrows. If you were relying on the icon for spacing, you may need to update to re-add that spacing through CSS.
 
